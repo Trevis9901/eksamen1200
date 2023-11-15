@@ -1,5 +1,7 @@
 body{
     background-color: beige;
+    font-family: sans-serif;
+    text-align: left;
 }
 
 /* styling av navbar */
@@ -63,4 +65,58 @@ body{
 .navbar .active-navbaritem a::before{
     visibility: visible;
     transform: scaleX(1);
+}
+
+.content{
+    padding-top: 10vh;
+    display: flex;  
+    flex-direction: column;
+
+}
+
+/*innhold i topical-page*/
+.boks1{
+    background-color: white;  
+    padding-bottom: 15px;
+}
+
+.boks2{
+    background-color: aquamarine;
+}
+
+.boks3{
+    background-color: chocolate;
+}
+
+.boks4{
+    background-color: darkgray;
+}
+
+.tekst1{
+    text-align: left;
+    margin-right: 500px;
+}
+
+.tekst2{
+
+}
+
+.tekst3{
+
+}
+
+.header1{
+    text-align: center;
+}
+
+.header2{
+    text-align: center;
+}
+
+.header3{
+    text-align: center;
+}
+
+.header4{
+    text-align: center;
 }
