@@ -71,13 +71,14 @@ body{
     padding-top: 10vh;
     display: flex;  
     flex-direction: column;
-
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 /*innhold i topical-page*/
 .boks1{
     background-color: white;  
-    padding-bottom: 15px;
+    padding-bottom: 5vh;
 }
 
 .boks2{
@@ -93,8 +94,7 @@ body{
 }
 
 .tekst1{
-    text-align: left;
-    margin-right: 500px;
+    margin-right: 100px;
 }
 
 .tekst2{
@@ -110,13 +110,13 @@ body{
 }
 
 .header2{
-    text-align: center;
+    text-align: left;
 }
 
 .header3{
-    text-align: center;
+    text-align: left;
 }
 
 .header4{
-    text-align: center;
+    text-align: left;
 }
