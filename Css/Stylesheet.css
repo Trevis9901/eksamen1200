@@ -1,6 +1,6 @@
 body{
     background-color: beige;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: left;
 }
 
@@ -94,15 +94,18 @@ body{
 }
 
 .tekst1{
-    margin-right: 100px;
+    margin-right: 20vw;
+    margin-left: 20vw;
 }
 
 .tekst2{
-
+    margin-right: 20vw;
+    margin-left: 20vw;
 }
 
 .tekst3{
-
+    padding-right: 20vw;
+    padding-left: 20vw;
 }
 
 .header1{
@@ -111,12 +114,38 @@ body{
 
 .header2{
     text-align: left;
+    margin-left: 20vw;
 }
 
 .header3{
     text-align: left;
+    margin-left: 20vw;
 }
 
 .header4{
     text-align: left;
+    margin-left: 20vw;
+}
+
+.bilde1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;      
+    max-width: 100%;
+
+   
+}
+
+.bilde2{
+    max-width: 70%;
+    float: right;
+    padding-left: 2vw;
+
+}
+
+.bilde3{
+    float: right;
+    max-width: 50%;
+    padding-left: 2vw;
+
 }
