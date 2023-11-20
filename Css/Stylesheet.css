@@ -2,6 +2,10 @@ body{
     background-color: beige;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
+    background-image: url(../bilder/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* styling av navbar */
@@ -149,4 +153,47 @@ body{
     max-width: 50%;
     padding-left: 2vw;
 
+}
+/*Home page styling*/
+
+
+.artikkelrekkefølge {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10vw;
+}
+
+.blogboks{
+    background-color: white;
+    box-shadow: 5px 10px 6px;
+    width: 300px;
+    height: 300px;
+    margin-top: 4vh;
+    margin-right: 4vw;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.blogheader{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.blogtekst{
+font-size: larger;
+text-align: center;
+padding-left: 1vw;
+padding-right: 1vw;
+
+}
+
+#blog-bilde1{
+    width: 100%;
+    flex-shrink: 0;
+    height: 22vh;
 }
