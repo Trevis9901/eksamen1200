@@ -1,5 +1,7 @@
 body{
     background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
 }
 
 /* styling av navbar */
@@ -63,4 +65,87 @@ body{
 .navbar .active-navbaritem a::before{
     visibility: visible;
     transform: scaleX(1);
+}
+
+.content{
+    padding-top: 10vh;
+    display: flex;  
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+/*innhold i topical-page*/
+.boks1{
+    background-color: white;  
+    padding-bottom: 5vh;
+}
+
+.boks2{
+    background-color: aquamarine;
+}
+
+.boks3{
+    background-color: chocolate;
+}
+
+.boks4{
+    background-color: darkgray;
+}
+
+.tekst1{
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
+
+.tekst2{
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
+
+.tekst3{
+    padding-right: 20vw;
+    padding-left: 20vw;
+}
+
+.header1{
+    text-align: center;
+}
+
+.header2{
+    text-align: left;
+    margin-left: 20vw;
+}
+
+.header3{
+    text-align: left;
+    margin-left: 20vw;
+}
+
+.header4{
+    text-align: left;
+    margin-left: 20vw;
+}
+
+.bilde1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;      
+    max-width: 100%;
+
+   
+}
+
+.bilde2{
+    max-width: 70%;
+    float: right;
+    padding-left: 2vw;
+
+}
+
+.bilde3{
+    float: right;
+    max-width: 50%;
+    padding-left: 2vw;
+
 }
