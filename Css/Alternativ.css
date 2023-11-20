@@ -1,39 +1,101 @@
-body{
-    margin-left: 144px;
+/* Stil for fikset navigasjonsfeltet, plassering av lenker i midten av navigasjonsfeltet  */
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding: 45px 0;
+    height: 30px;
+    background: #BA68C8;
+    word-spacing: 40px;
+    text-align: center;
 }
+
+/* Lenkeformatering, har tatt bort understreker paa alle lenker */
+a:link {
+    font-family: "Gill Sans", sans-serif; 
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Besøkte lenker har en annen farge */
+  a:visited {
+    color: rgb(72, 4, 87);
+  }
+  
+  /* Musepeker over lenke med text shadow */
+  a:hover {
+    color: blanchedalmond;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  }
+
+  /* Stil for bilde av P52, med runde boarders*/
+#picPilestredet{
+    width: 1052px;
+    height: 450px;
+    flex-shrink: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+ }
+
+ /* Stil for bildetekst (fotograf) */
+#picSource{
+    font-family: "Gill Sans", sans-serif;
+    margin-left: 50px; 
+ }
+
+/* Stil for sideinnhold, innholdet plasseres i midten */
+#page{
+    margin-left: 144px;
+    margin-right: 144px;
+}
+
+/* Stil for hovedoverskrift, overdkriftet plassres i midten*/
 .mainHeader{
-    margin-top: 122px;
-    margin-left: 444px;
-    margin-right: 444px;
+    padding-top: 150px;
+    padding-left: 390px;
+    padding-right: 444px;
     color: #000;
     font-family: "Gill Sans", sans-serif;
+    text-align: center;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    width: 392px;
 }
 
+/* Stil for undertittel, den plasseres i midten */
 .subHeader{
-    margin-top: 544px;
-    margin-left: 505px;
-    margin-right: 505px; 
+    padding-top: 100px;
+    padding-left: 440px;
+    padding-right: 505px; 
+    padding-bottom: 40px;
     color: #000;
     font-family: "Gill Sans", sans-serif;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 270px;
 }
 
+/* Stil for kortoverskrifter, de plasseres inn i midten av hver kort */
 .cardHeaders{
     color: #000;
     font-family: "Gill Sans", sans-serif;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
 }
 
+/* Stil for korttekst, beskrivelser av steder i bygget */
 .cardText{
     color: #000;
 text-align: center;
@@ -45,3 +107,94 @@ line-height: normal;
 width: 252px;
 }
 
+/* Stil for flex container 1, de første 3 kort er plassert i den første konteineren */
+.flexContainer1 {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+/* Stil for flex container 2, de andre 3 kort er plassert i den andre konteineren*/
+  .flexContainer2 {
+    margin-top: 50px; 
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 200px;
+  }
+
+  /* Stil for boks #box2 (kort) */
+#box2{
+    margin-left: 150px;
+    place-content: center; 
+}
+
+/* Stil for boks #box3 (kort) */
+#box3{
+    margin-left: 120px;
+    place-content: center; 
+}
+
+/* Stil for boks #box5 (kort) */
+#box5{
+    margin-left: 150px;
+    place-content: center; 
+}
+
+/* Stil for boks #box6 (kort) */
+#box6{
+    margin-left: 150px;
+  place-content: center; 
+}
+
+/* Stil for bilde #pic1 (bildet inn i kortet) */
+#pic1{
+    width: 232px;
+height: 227px;
+flex-shrink: 0;
+}
+
+/* Stil for bilde #pic2 (bildet inn i kortet)*/
+#pic2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Stil for bilde #pic3 (bildet inn i kortet)*/
+#pic3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Stil for bilde #pic5 (bildet inn i kortet) */
+#pic5{
+    margin-left: 20px;
+}
+
+/* Stil for bilde #pic6 (bildet inn i kortet)*/
+#pic6{
+    margin-bottom: 20px;
+}
+/* Stil for hovedinnhold (alle konteinere er plassert litt mer til høyre siden) */
+.mainContent{
+margin-left: 30px;
+}
+
+/* Stil for bunntekst #footer */
+
+footer{
+    background: #BA68C8;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    
+}
+
+/* stil for OsloMet logoen */
+#logo{
+    width: 50x;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
