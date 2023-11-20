@@ -17,20 +17,20 @@ a:link {
     font-family: "Gill Sans", sans-serif; 
     color: white;
     text-decoration: none;
-  }
+}
   
-  /* Besøkte lenker har en annen farge */
-  a:visited {
+/* Besøkte lenker har en annen farge */
+a:visited {
     color: rgb(72, 4, 87);
-  }
+}
   
-  /* Musepeker over lenke med text shadow */
-  a:hover {
+/* Musepeker over lenke med text shadow */
+a:hover {
     color: blanchedalmond;
     text-shadow: 2px 2px 5px rgb(255, 255, 255);
-  }
+}
 
-  /* Stil for bilde av P52, med runde boarders*/
+/* Stil for bilde av P52, med runde boarders*/
 #picPilestredet{
     width: 1052px;
     height: 450px;
@@ -38,13 +38,13 @@ a:link {
     margin-left: 50px;
     margin-top: 20px;
     border-radius: 20px;
- }
+}
 
- /* Stil for bildetekst (fotograf) */
+/* Stil for bildetekst (fotograf) */
 #picSource{
     font-family: "Gill Sans", sans-serif;
     margin-left: 50px; 
- }
+}
 
 /* Stil for sideinnhold, innholdet plasseres i midten */
 #page{
@@ -111,7 +111,7 @@ a:link {
 .flexContainer1 {
     display: flex;
     flex-wrap: nowrap;
-  }
+}
   
 /* Stil for flex container 2, de andre 3 kort er plassert i den andre konteineren*/
   .flexContainer2 {
@@ -119,9 +119,9 @@ a:link {
     display: flex;
     flex-wrap: nowrap;
     margin-bottom: 200px;
-  }
+}
 
-  /* Stil for boks #box2 (kort) */
+/* Stil for boks #box2 (kort) */
 #box2{
     margin-left: 150px;
     place-content: center; 
@@ -142,7 +142,7 @@ a:link {
 /* Stil for boks #box6 (kort) */
 #box6{
     margin-left: 150px;
-  place-content: center; 
+    place-content: center; 
 }
 
 /* Stil for bilde #pic1 (bildet inn i kortet) */
@@ -173,13 +173,13 @@ a:link {
 #pic6{
     margin-bottom: 20px;
 }
+
 /* Stil for hovedinnhold (alle konteinere er plassert litt mer til høyre siden) */
 .mainContent{
-margin-left: 30px;
+    margin-left: 30px;
 }
 
-/* Stil for bunntekst #footer */
-
+/* Stil for bunntekst */
 footer{
     background: #BA68C8;
     box-sizing: border-box;
