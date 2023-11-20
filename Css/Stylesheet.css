@@ -1,7 +1,5 @@
 body{
-    background-color: beige;
     font-family: 'Times New Roman', Times, serif;
-    text-align: left;
     background-image: url(../bilder/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -71,78 +69,57 @@ body{
     transform: scaleX(1);
 }
 
+/*innhold i topical-page*/
 .content{
     padding-top: 10vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
     display: flex;  
     flex-direction: column;
-    margin-left: 5vw;
-    margin-right: 5vw;
 }
 
-/*innhold i topical-page*/
-.boks1{
-    background-color: white;  
+.artikkelhead{  
     padding-bottom: 5vh;
 }
 
-.boks2{
-    background-color: aquamarine;
+.artikkel{
+    background-color: white;
+
 }
 
-.boks3{
-    background-color: chocolate;
-}
 
-.boks4{
-    background-color: lightgray;
-}
-
-.tekst1{
-    margin-right: 20vw;
-    margin-left: 20vw;
-}
-
-.tekst2{
-    margin-right: 20vw;
-    margin-left: 20vw;
-}
-
-.tekst3{
-    padding-right: 20vw;
-    padding-left: 20vw;
+.tekst{
+    text-align: left;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 .header1{
     text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header2{
     text-align: left;
-    margin-left: 20vw;
-}
-
-.header3{
-    text-align: left;
-    margin-left: 20vw;
-}
-
-.header4{
-    text-align: left;
-    margin-left: 20vw;
+    margin-left: 2vw;
 }
 
 .bilde1{
     display: block;
     margin-left: auto;
     margin-right: auto;      
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 60%;
+    max-height: 60%;
 
    
 }
 
 .bilde2{
-    max-width: 70%;
+    max-width: 50%;
     float: right;
     padding-left: 2vw;
 
@@ -155,6 +132,10 @@ body{
 
 }
 /*Home page styling*/
+
+.container-index{
+    padding-top: 10vh;
+}
 
 
 .artikkelrekkefølge {
@@ -173,7 +154,7 @@ body{
 }
 
 
-a{
+.container a{
     text-decoration: none;
     color: black;
 }
