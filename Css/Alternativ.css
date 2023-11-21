@@ -4,9 +4,9 @@ nav{
     top: 0;
     right: 0;
     left: 0;
-    width: 100%;
-    padding: 45px 0;
-    height: 30px;
+    width: auto;
+    padding: 3rem 0;
+    height: 2rem;
     background: #BA68C8;
     word-spacing: 40px;
     text-align: center;
@@ -30,22 +30,26 @@ a:visited {
   
 /* Musepeker over lenke med text shadow */
 a:hover {
-    color: blanchedalmond;
-    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(51, 0, 51);
 }
 
 /* Stil for bilde av P52, med runde boarders*/
 #picPilestredet{
-    width: 1075px;
-    height: 450px;
+    max-width: 100%;
+    max-width: 100%;
+    width: 67rem;
+    height: 28rem;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 1.25rem;
+    object-fit: cover;
 }
 
 /* Stil for bildetekst (fotograf) */
 #picSource{
     font-family: "Gill Sans", sans-serif;
     margin-left: 50px; 
+    width: auto;
 }
 
 /* Stil for sideinnhold, innholdet plasseres i midten */
@@ -72,17 +76,17 @@ a:hover {
 /* Stil for undertittel, den plasseres i midten */
 #subHeader{
     padding-top: 100px;
-    padding-left: 402.5px;
-    padding-right: 402.5px; 
+    padding-left: auto; 
+    padding-right: auto;
     padding-bottom: 40px;
     color: #000;
     font-family: "Gill Sans", sans-serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 270px;
+    width: auto;
 }
 
 /* Stil for kortoverskrifter, de plasseres inn i midten av hver kort */
@@ -90,7 +94,7 @@ a:hover {
     color: #000;
     font-family: "Gill Sans", sans-serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -102,11 +106,12 @@ a:hover {
     color: #000;
     text-align: center;
     font-family: "Gill Sans", sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 252px;
+    width: auto;
+
 }
 
 /* Stil for flex container 1, de første 3 kort er plassert i den første konteineren */
@@ -127,8 +132,9 @@ a:hover {
 
 /* Stil for boks #box2 (kort) */
 #box2{
-    margin-left: 150px;
+    margin-left: 9.3rem;
     place-content: center; 
+    object-fit: contain;
 }
 
 /* Stil for boks #box3 (kort) */
@@ -139,67 +145,88 @@ a:hover {
 
 /* Stil for boks #box5 (kort) */
 #box5{
-    margin-left: 150px;
+    margin-left: 7.5rem;
     place-content: center; 
 }
 
 /* Stil for boks #box6 (kort) */
 #box6{
-    margin-left: 150px;
+    margin-left: 9.3rem;
     place-content: center; 
 }
 
 /* Stil for bilde #pic1 (bildet inn i kortet) */
 #pic1{
-    width: 232px;
-    height: 227px;
+    width: 17vw;
+    height: 27vh;
     flex-shrink: 0;
+    object-fit: cover;
 }
 
 /* Stil for bilde #pic2 (bildet inn i kortet)*/
 #pic2{
+    width: 17vw;
+    height: 26vh;
     margin-top: 10px;
     margin-bottom: 20px;
+    object-fit: cover;
 }
 
 /* Stil for bilde #pic3 (bildet inn i kortet)*/
 #pic3{
+    width: 17vw;
+    height: 26vh;
     margin-left: 20px;
     margin-bottom: 20px;
+    object-fit: cover;
+}
+#pic4{
+    width: 17vw;
+    height: 26vh;
+    object-fit: cover;
 }
 
 /* Stil for bilde #pic5 (bildet inn i kortet) */
 #pic5{
+    width: 17vw;
+    height: 26vh;
     margin-left: 20px;
+    object-fit: cover;
 }
 
 /* Stil for bilde #pic6 (bildet inn i kortet)*/
 #pic6{
-    margin-bottom: 20px;
+    width: 17vw;
+    height: 26vh;
+    object-fit: cover;
+    padding-left: 1rem;
 }
 
 /* Stil for hovedinnhold*/
 .mainContent{
     margin:auto;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 /* Stil for bunntekst */
 footer{
     background: #BA68C8;
     box-sizing: border-box;
-    margin-bottom: 8px;
-    margin-left: 8px;
-    margin-right: 8px;
-    width: 1440;
-    height: 100px;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: auto;
+    height: 11vh;
     border-radius: 20px;
     
 }
 
 /* stil for OsloMet logoen */
 #logo{
-    width: 50x;
-    height: 50px;
-    padding-top: 20px;
-    padding-left: 20px;
+   object-fit: contain;
+    width: 5vw;
+    height: 6vh;
+    margin-top: 2.5vh;
+    margin-left: 4.5vw;
 }
