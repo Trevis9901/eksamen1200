@@ -66,7 +66,7 @@ a:hover {
     color: #000;
     font-family: "Gill Sans", sans-serif;
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -227,4 +227,164 @@ footer{
     height: 6vh;
     margin-top: 2.5vh;
     margin-left: 4.5vw;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: white;
+        width: auto;
+    }
+
+    nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: auto;
+        padding: 3rem 0;
+        height: 2rem;
+        background: #BA68C8;
+        word-spacing: 1rem;
+        text-align: center;
+    }
+
+    .mainContent{
+        margin: auto;
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+    .flexContainer1{
+        flex-direction: column;
+    }
+
+    .flexContainer2{
+        flex-direction: column;
+    } 
+
+    #box2{
+        place-content: center; 
+    }
+    
+    /* Stil for boks #box3 (kort) */
+    #box3{
+        place-content: center; 
+    }
+    
+    /* Stil for boks #box5 (kort) */
+    #box5{
+        place-content: center; 
+    }
+    
+    /* Stil for boks #box6 (kort) */
+    #box6{
+        place-content: center; 
+    }
+    .cardHeaders{
+        color: #000;
+        font-family: "Gill Sans", sans-serif;
+        text-align: center;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+    .cardText{
+        color: #000;
+        text-align: center;
+        font-family: "Gill Sans", sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: auto;
+    
+    }
+
+     /* Stil for bilde #pic1 (bildet inn i kortet) */
+    #pic1{
+        width: 27vw;
+        height: 12h;
+    }
+
+    /* Stil for bilde #pic2 (bildet inn i kortet)*/
+    #pic2{
+        width: 17vw;
+        height: 26vh;
+        margin-top: 10px;
+    }
+
+    /* Stil for bilde #pic3 (bildet inn i kortet)*/
+    #pic3{
+        width: 17vw;
+        height: 26vh;
+        margin-left: 20px;
+    }
+    #pic4{
+        width: 17vw;
+        height: 26vh;
+    }
+
+    /* Stil for bilde #pic5 (bildet inn i kortet) */
+    #pic5{
+     width: 17vw;
+     height: 26vh;
+     margin-left: 20px;
+    }
+
+    /* Stil for bilde #pic6 (bildet inn i kortet)*/
+    #pic6{
+        width: 17vw;
+        height: 26vh;
+    }
+
+    #mainHeader{
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 150px;
+        color: #000;
+        font-family: "Gill Sans", sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 392px;
+    } 
+
+    #subHeader{
+        padding-top: 100px;
+        padding-left: auto; 
+        padding-right: auto;
+        padding-bottom: 40px;
+        color: #000;
+        font-family: "Gill Sans", sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: auto;
+    } 
+    #picSource{
+        font-family: "Gill Sans", sans-serif;
+        margin-left: 8px;
+        font-size: 0.5rem;
+        width: auto;
+    }
+    #page{
+        max-width: 600px;
+        margin: 8px;
+    } 
+
+    #picPilestredet{
+        max-width: 100%;
+        max-width: 100%;
+        width: 20rem;
+        height: 10rem;
+        margin: auto;
+        border-radius: 1.25rem;
+        object-fit: cover;
+    } 
 }
