@@ -30,12 +30,15 @@ a:visited {
   
 /* Musepeker over lenke med text shadow */
 a:hover {
+
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 5px rgb(51, 0, 51);
+
 }
 
 /* Stil for bilde av P52, med runde boarders*/
 #picPilestredet{
+
     max-width: 100%;
     max-width: 100%;
     width: 67rem;
@@ -49,6 +52,7 @@ a:hover {
 #picSource{
     font-family: "Gill Sans", sans-serif;
     margin-left: 50px; 
+
     width: auto;
 }
 
@@ -111,7 +115,6 @@ a:hover {
     font-weight: 400;
     line-height: normal;
     width: auto;
-
 }
 
 /* Stil for flex container 1, de første 3 kort er plassert i den første konteineren */
@@ -151,12 +154,14 @@ a:hover {
 
 /* Stil for boks #box6 (kort) */
 #box6{
+
     margin-left: 9.3rem;
-    place-content: center; 
+
 }
 
 /* Stil for bilde #pic1 (bildet inn i kortet) */
 #pic1{
+
     width: 17vw;
     height: 27vh;
     flex-shrink: 0;
@@ -199,6 +204,7 @@ a:hover {
     object-fit: cover;
     padding-left: 1rem;
 }
+
 
 /* Stil for hovedinnhold*/
 .mainContent{
