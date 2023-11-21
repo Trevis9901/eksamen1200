@@ -212,23 +212,23 @@ this makes it so that when you hover over one element it underlines*/
 
 /* induvidual design of all the boxes  */
 .blogbox {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   background-color: white;
-   color: white;
-   margin-right: 1vw;
-   margin-left: 1vw;
-   max-width: 300px;
-   position: relative;
-   box-shadow: 20px 20px 1px;
-   border-radius: 20px;
-   /* glass effect inspired by https://css.glass, some tweeks adjusted to fit our website, we know how it works in theory but couldnt make it from scratch ourself */
-   background: rgba(255, 255, 255, 0.2);
-   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
-   backdrop-filter: blur(10px);
-   -webkit-backdrop-filter: blur(10px);
-   border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: white;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    max-width: 300px;
+    position: relative;
+    box-shadow: 20px 20px 1px;
+    border-radius: 20px;
+    /* glass effect inspired by https://css.glass, some tweeks adjusted to fit our website, we know how it works in theory but couldnt make it from scratch ourself */
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /* styling of headers inside acrticleboxes */
@@ -260,7 +260,7 @@ this makes it so that when you hover over one element it underlines*/
     flex-shrink: 0;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-
+    max-width: 300px;
+    min-width: 300px;
 }
-
 
