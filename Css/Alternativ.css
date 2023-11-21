@@ -1,5 +1,5 @@
 /* Stil for fikset navigasjonsfeltet, plassering av lenker i midten av navigasjonsfeltet  */
-nav{
+.navBarText{
     position: fixed;
     top: 0;
     right: 0;
@@ -12,7 +12,7 @@ nav{
     text-align: center;
 }
 /*Stilen paa body*/
-body{
+.body{
     margin: auto;
 }
 
@@ -57,7 +57,7 @@ a:hover {
 }
 
 /* Stil for sideinnhold, innholdet plasseres i midten */
-#page{
+.page{
     max-width: 1075px;
     margin:auto;
 }
