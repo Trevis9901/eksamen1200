@@ -11,7 +11,7 @@ nav{
     word-spacing: 40px;
     text-align: center;
 }
-
+/*Stilen paa body*/
 body{
     margin: auto;
 }
@@ -139,7 +139,7 @@ a:hover {
 
 /* Stil for boks #box3 (kort) */
 #box3{
-    margin-left: 120px;
+    margin-left: 7.5rem;
     place-content: center; 
 }
 
@@ -229,12 +229,20 @@ footer{
     margin-left: 4.5vw;
 }
 
+
+/*Stil for mobil-versjonen. Stilen viser seg hvis width er 600px eller mindre*/
 @media only screen and (max-width: 600px){
+    /*Stilen paa body*/
     body{
         background-color: white;
         width: auto;
     }
-
+    /* Stil for sideinnhold, innholdet plasseres i midten */
+    #page{
+        max-width: 600px;
+        margin: 8px;
+    } 
+    /*Stilen paa navigasjonsbaret*/
     nav{
         position: fixed;
         top: 0;
@@ -248,38 +256,97 @@ footer{
         text-align: center;
     }
 
+    /*Stilen paa mainheader*/
+    #mainHeader{
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 150px;
+        color: #000;
+        font-family: "Gill Sans", sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 200px;
+    }
+/* Stil for bilde av P52, med runde boarders*/
+    #picPilestredet{
+        max-width: 100%;
+        max-height: 100%;
+        width: 38rem;
+        height: 10rem;
+        margin: auto;
+        border-radius: 1.25rem;
+        object-fit: cover;
+    }
+    /* Stil for bildetekst (fotograf) */
+    #picSource{
+        font-family: "Gill Sans", sans-serif;
+        margin-left: 8px;
+        font-size: 0.5rem;
+        width: auto;
+    }
+    /* Stil for undertittel, den plasseres i midten */
+   #subHeader{
+        padding-top: 50px;
+        padding-left: auto; 
+        padding-right: auto;
+        padding-bottom: 40px;
+        color: #000;
+        font-family: "Gill Sans", sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: auto;
+    } 
+    /* Stil for hovedinnhold*/
     .mainContent{
         margin: auto;
-        max-width: fit-content;
-        max-height: fit-content;
     }
-
+    /*Stilen for container, boksene plasseres i kolonner*/
     .flexContainer1{
         flex-direction: column;
     }
-
+    /*Stilen for container, boksene plasseres i kolonner, med avstand fra footer*/
     .flexContainer2{
         flex-direction: column;
+        margin-bottom: 6rem; 
     } 
-
+    /*Stil for boks #box2 (kort)*/
     #box2{
+        margin-top: 2rem;
+        padding-left: 0;
+        margin-left: 0;
         place-content: center; 
     }
     
     /* Stil for boks #box3 (kort) */
     #box3{
+        margin-top: 2rem;
+        padding-left: 0;
+        margin-left: 0;
         place-content: center; 
     }
     
     /* Stil for boks #box5 (kort) */
     #box5{
+        margin-top: 2rem;
+        padding-left: 0;
+        margin-left: 0;
         place-content: center; 
     }
     
     /* Stil for boks #box6 (kort) */
     #box6{
+        margin-top: 2rem;
+        padding-left: 0;
+        margin-left: 0;
         place-content: center; 
     }
+    /* Stil for kortoverskrifter, de plasseres inn i midten av hver kort */
     .cardHeaders{
         color: #000;
         font-family: "Gill Sans", sans-serif;
@@ -290,6 +357,7 @@ footer{
         line-height: normal;
         margin-bottom: 5px;
     }
+    /* Stil for korttekst, beskrivelser av steder i bygget */
     .cardText{
         color: #000;
         text-align: center;
@@ -304,87 +372,62 @@ footer{
 
      /* Stil for bilde #pic1 (bildet inn i kortet) */
     #pic1{
-        width: 27vw;
-        height: 12h;
+        width: 50vw;
+        height: 30vh;
+        object-fit: contain;
+        object-position: center;
+        padding-left: 3.5rem;
     }
 
     /* Stil for bilde #pic2 (bildet inn i kortet)*/
     #pic2{
-        width: 17vw;
-        height: 26vh;
-        margin-top: 10px;
+        width: 50vw;
+        height: 30vh;
+        object-fit: contain;
+        object-position: center;
+        padding-left: 3.5rem;
     }
 
     /* Stil for bilde #pic3 (bildet inn i kortet)*/
     #pic3{
-        width: 17vw;
-        height: 26vh;
-        margin-left: 20px;
+        width: 50vw;
+        height: 30vh;
+        object-fit: contain;
+        object-position: center;
+        padding-left: 3.5rem;
     }
+    /* Stil for bilde #pic4 (bildet inn i kortet)*/
     #pic4{
-        width: 17vw;
-        height: 26vh;
+        width: 50vw;
+        height: 30vh;
+        object-fit: contain;
+        object-position: center;
+        padding-left: 3.5rem;
     }
 
     /* Stil for bilde #pic5 (bildet inn i kortet) */
     #pic5{
-     width: 17vw;
-     height: 26vh;
-     margin-left: 20px;
+        width: 50vw;
+        height: 30vh;
+        object-fit: contain;
+        object-position: center;
+        padding-left: 3.5rem;
     }
 
     /* Stil for bilde #pic6 (bildet inn i kortet)*/
     #pic6{
-        width: 17vw;
-        height: 26vh;
+        width: 50vw;
+        height: 30vh;
+        object-fit: contain;
+        object-position: center;
+        padding-left: 3.5rem;
     }
-
-    #mainHeader{
-        margin-left:auto;
-        margin-right: auto;
-        margin-top: 150px;
-        color: #000;
-        font-family: "Gill Sans", sans-serif;
-        text-align: center;
-        font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        width: 200px;
-    } 
-
-    #subHeader{
-        padding-top: 100px;
-        padding-left: auto; 
-        padding-right: auto;
-        padding-bottom: 40px;
-        color: #000;
-        font-family: "Gill Sans", sans-serif;
-        text-align: center;
-        font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        width: auto;
-    } 
-    #picSource{
-        font-family: "Gill Sans", sans-serif;
-        margin-left: 8px;
-        font-size: 0.5rem;
-        width: auto;
-    }
-    #page{
-        max-width: 600px;
-        margin: 8px;
-    } 
-
-    #picPilestredet{
-        max-width: 100%;
-        max-width: 100%;
-        width: 20rem;
-        height: 10rem;
-        margin: auto;
-        border-radius: 1.25rem;
-        object-fit: cover;
-    } 
+    /*Stil for Oslomet-logo*/
+    #logo{
+        object-fit: contain;
+         width: 10vw;
+         height: 8vh;
+         margin-top: 2vh;
+         margin-left: 4.5vw;
+     }
 }
