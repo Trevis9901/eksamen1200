@@ -7,7 +7,7 @@
     width: auto;
     padding: 3rem 0;
     height: 2rem;
-    background: #BA68C8;
+    background: darkorchid;
     word-spacing: 40px;
     text-align: center;
 }
@@ -25,7 +25,7 @@ a:link {
   
 /* Besøkte lenker har en annen farge */
 a:visited {
-    color: rgb(72, 4, 87);
+    color: white;
 }
   
 /* Musepeker over lenke med text shadow */
@@ -215,7 +215,7 @@ a:hover {
 
 /* Stil for bunntekst */
 footer{
-    background: #BA68C8;
+    background: darkorchid;
     box-sizing: border-box;
     margin-bottom: 1vh;
     margin-left: 1vw;
