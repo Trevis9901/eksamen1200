@@ -265,3 +265,68 @@ this makes it so that when you hover over one element it underlines*/
     max-width: 300px;
     min-width: 300px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .content{
+        padding-top: 0vh;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        display: flex;  
+        flex-direction: column;
+    }
+
+    .tekst{
+        margin-left: 5vw;
+        margin-right: 5vw;
+	    
+    }
+    .bilde1{ 
+        max-width: 100%; /*For at bildene skal skalere så det passer skjermen, det gjelder alt som er satt på 100% her*/
+        max-height: 100%; 
+	    
+    }
+    .bilde2{
+        max-width: 100%;
+    }
+    
+    .bilde3{
+        max-width: 100%;
+    }
+
+    .navbar{
+        position: unset; /*For at navbaren ikke skal "følge" etter nedover når man scroller*/
+        width: 100%;
+    }
+
+    .navbar ul{
+        display: block; /*For at linkene skal komme under hverandre, istedenfor ved siden av hverandre*/ 
+    }
+	
+     .header1{
+        font-size: 100%;
+    }
+
+     .container-index{
+        padding-top: 5vh;
+    }
+    
+     .welcome h1{
+        font-size: 2.5rem;
+    }
+
+    .introduction{
+        font-size: 1rem; 
+        margin-bottom: 5vw;
+    }
+
+    .articleboxes{
+        display: unset; /*Også her for at boksene skal komme under hverandre*/
+     }
+
+  
+    .blog-picture1{
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
