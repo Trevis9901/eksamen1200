@@ -23,7 +23,7 @@ a:link {
     text-decoration: none;
 }
   
-  /* Besøkte lenker har en annen farge */
+/* Besøkte lenker har en annen farge */
 a:visited {
     color: rgb(72, 4, 87);
 }
@@ -178,7 +178,7 @@ a:hover {
     margin-bottom: 20px;
 }
 
-/* Stil for hovedinnhold (alle konteinere er plassert litt mer til høyre siden) */
+/* Stil for hovedinnhold*/
 .mainContent{
     margin:auto;
 }
